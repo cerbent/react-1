@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    cursor: pointer;
+}
+#header{
+    position: relative;
+    height: 72px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+
+    background: #070707;
+    border-radius: 0px;
+}
+.header{
+    padding-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav a{
+    margin: 0 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.btn button{
+    width: 140px;
+    margin: 0 10px;
+    height: 40px;
+    border: 2px solid #40AB7E;
+    border-radius: 30px;
+    color: #40AB7E;
+    box-sizing: border-box;
+    background: none;
+}
+.btn button:hover{
+    width: 135px;
+    height: 40px;
+    background: #7CBA72;
+    border-radius: 30px;
+    color: black;
+}
+.hero h1 {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 39px;
+    color: #000000;
+    margin: 10px 0;
+}
+.text-3 h4{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    color: #000000;
+}
+.text p{
+    width: 242px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+.text h3 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    color: #000000;
+
+}
+.text-3 p{
+    width: 595px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+}
+.text-2 h2{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    color: #000000;
+    margin: 30px 0;
+}
+.text-2 p{
+    /*height: 97px;*/
+    width: 242px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+.text-2 h3{
+    margin: 20px 0;
+}
+.text-2 h3{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    color: #000000;
+}
+.text-2 h5{
+    width: 595px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#footer{
+    background: #404149;
+    /*width: 1440px;*/
+    height: 100px   ;
+}
+.footer h1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
